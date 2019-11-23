@@ -5,11 +5,11 @@ type HelloProps = {
   src: any;
 };
 
-const MyImage: FunctionComponent<HelloProps> = ({ src }) => (
+const MyImage: FunctionComponent<HelloProps> = ({ src, }) => (
   <Image
         fluid={true}
         src={src}
-        style={{ marginBottom: "30px" }}
+        style={{ marginBottom: "30px", height:"120px" }}
       />
 );
 

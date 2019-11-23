@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
+import Image from "../components/MyImage";
 
 export default () => {
   return (
@@ -10,9 +11,7 @@ export default () => {
       <Head>
         <title>About me</title>
       </Head>
-
-      <br />
-      
+      <Image src={require("../static/klobouk.jpg")} />
       <p>
         Ahoy, I'm <Hello name="zuz" />,
         <br />
@@ -23,8 +22,8 @@ export default () => {
         mountains and play fetch.
       </p>
       <p>
-        I was born 26th May 2015 close to Hradec Kralove. Now, I live in
-        Prague with my best owners Ondrej and Zuzka.
+        I was born 26th May 2015 close to Hradec Kralove. Now, I live in Prague
+        with my best owners Ondrej and Zuzka.
       </p>
     </Container>
   );
