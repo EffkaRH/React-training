@@ -1,3 +1,10 @@
 export default () => {
-    return <div>Welcome to Next.js!</div>;
-  };
+  return (
+    <>
+      <div>
+        <b>Welcome to Next.js!</b>
+      </div>
+      <p>gsghjhu hudfhnixfbg</p>
+    </>
+  );
+};

@@ -14,8 +14,8 @@
   },
   "scripts": {
     "dev": "next",
-    "prettier-check": "prettier -l '**/*.js'",
-    "prettier-write": "prettier --write '**/*.js'"
+    "prettier-check": "prettier -l '**/*.tsx'",
+    "prettier-write": "prettier --write '**/*.tsx'"
   },
   "dependencies": {
     "next": "^9.1.4",
