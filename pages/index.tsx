@@ -1,11 +1,17 @@
 import Hello from "../components/Hello";
 import Head from "next/head";
+import Link from "next/link";
 export default () => {
   return (
     <>
       <Head>
         <title>About me</title>
       </Head>
+     
+      <br />
+      <Link href="/contact">
+        <a>Contact me</a>
+      </Link>
       <p>
         Ahoy, I'm Nela,
         <br />
