@@ -5,5 +5,12 @@
   "repository": "https://github.com/EffkaRH/React-training.git",
   "author": "EffkaRH <epekarko@redhat.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "prettier-check": "prettier -l '**/*.js'",
+    "prettier-write": "prettier --write '**/*.js'"
+  }
 }
