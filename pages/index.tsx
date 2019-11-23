@@ -1,10 +1,9 @@
+import Hello from "../components/Hello";
+
 export default () => {
   return (
     <>
-      <div>
-        <b>Welcome to Next.js!</b>
-      </div>
-      <p>gsghjhu hudfhnixfbg</p>
+      <Hello name="Eva" />
     </>
   );
 };
