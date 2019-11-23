@@ -1,0 +1,9 @@
+{
+  "name": "Effka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EffkaRH/React-training.git",
+  "author": "EffkaRH <epekarko@redhat.com>",
+  "license": "MIT",
+  "private": false
+}
