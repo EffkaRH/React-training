@@ -1,6 +1,6 @@
 import Hello from "../components/Hello";
 import Head from "next/head";
-import Link from "next/link";
+import Nav from "../components/Nav";
 export default () => {
   return (
     <>
@@ -9,11 +9,9 @@ export default () => {
       </Head>
      
       <br />
-      <Link href="/contact">
-        <a>Contact me</a>
-      </Link>
+      <Nav></Nav>
       <p>
-        Ahoy, I'm Nela,
+        Ahoy, I'm <Hello name="zuz"/>,
         <br />
         I'm half labrador half swiss shepard.
       </p>
